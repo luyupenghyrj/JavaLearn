@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>nacos-spring-boot-example</module>
+        <module>nacos-spring-cloud-example</module>
     </modules>
 
 
