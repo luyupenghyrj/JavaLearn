@@ -14,6 +14,7 @@
     <modules>
         <module>nacos-spring-boot-example</module>
         <module>nacos-spring-cloud-example</module>
+        <module>nacos-client-example</module>
     </modules>
 
 
