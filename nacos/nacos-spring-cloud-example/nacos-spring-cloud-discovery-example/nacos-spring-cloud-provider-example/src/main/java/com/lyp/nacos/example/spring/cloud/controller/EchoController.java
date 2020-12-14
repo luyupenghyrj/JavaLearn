@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping( path = "/order")
 public class EchoController {
-    @GetMapping(value = "/product/{name}")
-    public String getOrder(@PathVariable String name){
+    @GetMapping(value = "/product/{namea}")
+    public String getOrder(@PathVariable("namea") String name){
         return "Hello:"+name;
     }
 }

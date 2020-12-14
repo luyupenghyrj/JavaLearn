@@ -26,4 +26,8 @@ public class ConfigController {
     public String getPlus() {
         return applicationContext.getEnvironment().getProperty("useLocalCache");
     }
+    @RequestMapping("/getExtConfig")
+    public String getExtConfig() {
+        return applicationContext.getEnvironment().getProperty("name");
+    }
 }
